@@ -3,15 +3,16 @@ import './App.css';
 
 function App() {
   const name = 'jeong';
+  const list = ['우유', '딸기', '바나나'];
   return (
     <>
-      <h1 className='orange'>Hello!</h1>
+      <h1 className='orange'>Hello! {name}</h1>
       <h2>Hello!</h2>
       <p>{name}</p>
       <ul>
-        <li>우유</li>
-        <li>딸기</li>
-        <li>바나나</li>
+        {list.map((item)=>(
+          <li>{item}</li>
+        ))}
       </ul>
       <img style={{ width:'200px', height:'200px' }} 
       src='https://avatars.githubusercontent.com/u/97008461?v=4' 
