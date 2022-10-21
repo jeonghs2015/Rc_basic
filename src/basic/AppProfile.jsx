@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './basic/App.css';
 import Profile from './basic/components/Profile';
 import Avatar from './basic/components/Avatar';
 
