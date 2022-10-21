@@ -4,7 +4,7 @@ import './index.css';
 import AppJSX from './AppJSX';
 import reportWebVitals from './reportWebVitals';
 import AppProfile from './AppProfile';
-import AppCounter from './AppCounter';
+import AppCounter from './basic/AppCounter';
 import AppProducts from './AppProducts';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

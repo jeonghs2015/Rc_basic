@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Profile from './components/Profile';
-import Avatar from './components/Avatar';
+import Profile from './basic/components/Profile';
+import Avatar from './basic/components/Avatar';
 
 function AppProfile() {
   
