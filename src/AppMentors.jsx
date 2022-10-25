@@ -47,6 +47,20 @@ export default function AppMentors() {
       >
       멘토의 이름 바꾸기
       </button>
+      <button onClick={() => {
+          const name = prompt(`추가하고싶은 멘토의 이름을 입력하세요`);
+          const title = prompt(`추가하실 멘토의 타이틀을 입력하세요`);
+          
+        }}
+      >
+      멘토의 추가하기
+      </button>
+      <button onClick={() => {
+  
+        }}
+      >
+      멘토의 삭제하기
+      </button>
     </div>
   )
 }
