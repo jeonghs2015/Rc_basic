@@ -5,11 +5,12 @@ import reportWebVitals from './reportWebVitals';
 import AppMentorsImmer from './AppMentorsImmer';
 import AppForm from './AppForm';
 import AppWrap from './AppWrap';
+import AppCard from './AppCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppWrap />
+    <AppCard />
   </React.StrictMode>
 );
 
